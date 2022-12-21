@@ -56,10 +56,11 @@ text-decoration: none;
 
 .person-card:hover {
   border: 5px solid rgb(230, 227, 64);
-  cusor: pointer;
+  cursor: pointer;
 }
 
 .person-card img {
+  width: 40vh;
   max-height: 250px;
 }
 

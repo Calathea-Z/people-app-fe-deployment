@@ -14,7 +14,7 @@
 
 .person>img {
     grid-area: image;
-    width: auto;
+    width: 50vh;
     height: 50vh;
 }
 
