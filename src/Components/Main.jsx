@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom"
 import People from "../pages/People/People"
 import Show from "../pages/Show/Show"
+
 const Main = () => {
   return (
     <main>

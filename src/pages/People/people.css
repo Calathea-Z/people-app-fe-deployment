@@ -1,7 +1,66 @@
+form, button, label {
+  display: flex;
+  gap: 10px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2px;
+  margin: 2px;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+input {
+  justify-self: flex-end;
+  display: flex;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2px;
+  margin: 2px;
+  justify-content: center;
+  border-radius: 5px;
+}
 .people-list{
+  padding: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 60px;
+    gap: 40px;
+    text-decoration: none;
+}
+
+.create-form {
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  border-radius: 5px;
+  border: 5px solid rgb(62, 52, 52);
+  padding: 5px;
+}
+
+.people-list a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.person-card {
+border: 5px solid rgb(3, 96, 162);
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+text-align: center;
+border-radius: 10px;
+text-decoration: none;
+}
+
+.person-card:hover {
+  border: 5px solid rgb(230, 227, 64);
+  cusor: pointer;
+}
+
+.person-card img {
+  max-height: 250px;
 }
 
 .spinner {
